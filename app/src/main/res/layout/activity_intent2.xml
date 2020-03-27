@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".intent2">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="415dp"
+        android:layout_height="579dp"
+        android:background="#2196F3"
+        app:srcCompat="@drawable/revisi"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="155dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="74dp"
+        android:layout_height="46dp"
+        app:srcCompat="@drawable/kalong"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="16dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="94dp"
+        android:layout_height="58dp"
+        app:srcCompat="@drawable/kalong"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="62dp"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="110dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/kalong"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="74dp"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
